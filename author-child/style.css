@@ -1,0 +1,29 @@
+/*
+Theme Name: Author Child Theme
+description: >-
+  Child theme of Author theme
+Author: Ben Sibley
+Template: author
+Version: 1.0.0
+*/
+
+
+/* Portfolio Archive Page */
+.portfolio-entry {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.portfolio-text {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .portfolio-entry {
+        width: 100%;
+    }
+}
